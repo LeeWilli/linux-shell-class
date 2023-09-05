@@ -1,3 +1,7 @@
+在自己账户目录下创建子目录hw1，所有bash脚本文件都放在这个目录下，文件扩展名是.sh，假如文件名是main.sh，这时文件的路径应该是： \~/hw1/main.sh （‘~'表示你的账户所在更目录，如pi账户，那么完整路径就是/home/pi/hw1/main.sh。脚本文件需要运行没有错误，即脚本运行后的返回值是0.
+
+请把下面的指令放入脚本文件中，并能够运行返回0值。
+
 # The basics of Linux Shell
 
 Part 1: Navigate the file system
