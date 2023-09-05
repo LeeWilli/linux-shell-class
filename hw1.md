@@ -40,7 +40,7 @@ Now run `ls` to verify it exists
 
 How many did you count?
 
-# Goal: Learn to work with streams
+# Learn to work with streams
 
 Part 1: Create a new file and write to it via stdout
 - Run the following command in your Bash terminal: `echo "fruit" > meal.txt`
