@@ -1,8 +1,14 @@
-Please create hw4 directory in your root and use bash files to finish the following exercises through one or more bash scripts. It's good to write each bash file for each problem and name it with the index of problem, like 1.sh, 2.sh, etc. You need to write a correspondent test script for each problem with Bats（Bash Automated Testing System）(e.g., 1_test.bats). You can run it to verify the correctness of your answer through the following command
+Please create hw4 directory in your root and use bash files to finish the following exercises through one or more bash scripts. It's good to write each bash file for each problem and name it with the index of problem, like 1.sh, 2.sh, etc. 
+
+You need to write a correspondent test script for each problem with Bats（Bash Automated Testing System）(e.g., 1_test.bats). You can run it to verify the correctness of your answer through the following command
 ```bash
 $bats 1_test.bats
 ```
+For the usage of Bats, you can read the [text](https://github.com/LeeWilli/linux-shell-class/blob/main/Bats.md).
+
 For regular expressions, you may reference chapter 20 of our textbook or [Data Wrangling](https://missing.csail.mit.edu/2020/data-wrangling/)
+
+The problems are the following:
 
 1. Write a script that enumerates the system’s users and groups from 
 /etc/passwd and /etc/group (or their network database equivalents). 
