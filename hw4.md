@@ -32,3 +32,4 @@ and
 ```bash
 systemd[577]: Startup finished in ...
 ```
+if you can't run `journalctl`, you may not be in `systemd-journal` group. You need to download [journal.log](https://github.com/LeeWilli/linux-shell-class/blob/main/journal.log) to look for the log timestamps.
