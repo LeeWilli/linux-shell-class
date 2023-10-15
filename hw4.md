@@ -33,5 +33,5 @@ and
 systemd[577]: Startup finished in ...
 ```
 if you can't run `journalctl`, you may not be in `systemd-journal` group. There are two ways to look for the log timestamps:
--  download [journal.log](https://github.com/LeeWilli/linux-shell-class/blob/main/journal.log) that has log timestamps.
--  copy from /home/wangli/newclassroom/code/linux-shell-class/journal.log
+-  download [journal.log](https://github.com/LeeWilli/linux-shell-class/blob/main/journal.log) that has log timestamps and read it.
+-  just read from /home/wangli/newclassroom/code/linux-shell-class/journal.log.
